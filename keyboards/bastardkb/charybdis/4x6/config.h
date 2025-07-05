@@ -19,10 +19,11 @@
 #pragma once
 
 /* Trackball angle adjustment. */
-#define ROTATIONAL_TRANSFORM_ANGLE -25
+// #define ROTATIONAL_TRANSFORM_ANGLE -25
+#define ROTATIONAL_TRANSFORM_ANGLE 40
 
 /* Handedness. */
-#define MASTER_RIGHT
+#undef MASTER_RIGHT
 
 // To use the handedness pin, resistors need to be installed on the adapter PCB.
 // If so, uncomment the following code, and undefine MASTER_RIGHT above.

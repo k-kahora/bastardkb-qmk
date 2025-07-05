@@ -81,12 +81,14 @@
                 {"label": "R24", "matrix": [6, 1], "x": 15, "y": 2},
                 {"label": "R25", "matrix": [6, 0], "x": 16, "y": 2},
 
-                {"label": "L33", "matrix": [3, 3], "x": 5, "y": 3},
-                {"label": "L34", "matrix": [3, 4], "x": 6, "y": 3},
-                {"label": "L31", "matrix": [3, 1], "x": 7, "y": 3},
+		// Left thumb cluster (2 keys)
+		{"label": "L31", "matrix": [3, 1], "x": 5, "y": 3},
+		{"label": "L34", "matrix": [3, 4], "x": 6, "y": 3},
 
-                {"label": "R31", "matrix": [7, 1], "x": 9, "y": 3},
-                {"label": "R33", "matrix": [7, 3], "x": 10, "y": 3}
+		// Right thumb cluster (3 keys)
+		{"label": "R30", "matrix": [7, 0], "x": 9, "y": 3},
+		{"label": "R31", "matrix": [7, 1], "x": 10, "y": 3},
+		{"label": "R33", "matrix": [7, 3], "x": 11, "y": 3}
             ]
         }
     }
